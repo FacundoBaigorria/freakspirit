@@ -1,0 +1,32 @@
+  /* pricing */
+  .contenedor {
+    display: flex;
+    /* width: 20px; */
+    justify-content: space-around;
+    flex-wrap: auto;
+    /* max-width: 00px; */
+    margin: auto;
+  }
+
+  .img-product {
+    width: 250px;
+    height: 600px;
+    margin-bottom: 30px;
+    object-fit: fill;
+
+  }
+
+  .imagenes {
+    text-align: center;
+  }
+
+  /* pricing */
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    color: black;
+    /* background-color: aliceblue; */
+  }
