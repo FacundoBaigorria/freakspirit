@@ -1,32 +1,87 @@
   /* pricing */
   .contenedor {
-    display: flex;
-    /* width: 20px; */
+    display: flexbox;
+    width: 100%;
     justify-content: space-around;
-    flex-wrap: auto;
-    /* max-width: 00px; */
+    flex-wrap: wrap;
+    max-width: 1000px;
     margin: auto;
   }
 
   .img-product {
-    width: 250px;
-    height: 600px;
-    margin-bottom: 30px;
-    object-fit: fill;
+    /* display: block; */
+    /* height: auto; */
+    margin: 20px;
+    /* object-fit: contain; */
+    filter: brightness(70%);
+    /* animation: ; */
+  }
+
+  .img-product:hover {
+    filter: brightness(100%);
 
   }
 
-  .imagenes {
-    text-align: center;
+  .w3-half {
+    /* display:  contents; */
+    /* align-items: center; */
+
+    opacity: 1;
   }
 
-  /* pricing */
+  .w3-container{
+    background-color: aliceblue;
+  }
+
+  h1 {
+    font-family: lovelo;
+  }
 
   h2 {
+    font-family: Motserrat Classic;
     text-align: center;
+    color: black;
   }
 
   p {
+    font-family: Roboto;
+    text-align: center;
     color: black;
     /* background-color: aliceblue; */
+  }
+
+  a {
+    
+    text-decoration: none;
+    color: black;
+  }
+
+  #myPage {
+    background: hsla(208, 7%, 55%, 1);
+
+    background: linear-gradient(90deg, hsla(208, 7%, 55%, 1) 0%, hsla(191, 5%, 40%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(208, 7%, 55%, 1) 0%, hsla(191, 5%, 40%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(208, 7%, 55%, 1) 0%, hsla(191, 5%, 40%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#858E96", endColorstr="#60696B", GradientType=1);
+    /* background-color: #7d5632; */
+  }
+
+  .fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    position: fixed;
+    top: 80%;
+    right: 10%;
+  }
+
+  .fab:hover {
+    opacity: 0.7;
   }
